@@ -1,0 +1,15 @@
+.genre-item {
+  color: rgb(5, 5, 151);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  &:hover {
+    color: orange;
+  }
+  &__selected {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(3, 181, 3);
+  }
+}
